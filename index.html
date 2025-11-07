@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bem-vindo à T3ck!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/t3cklogo.jpg" type="img/icon">
+</head>
+
+<body>
+  <header class="header">
+    <img src="img/t3cklogo.jpg" alt="logoT3ck" class="logoT3" width="70px" height="">
+
+    <nav class="header">
+      <ul>
+        <li><a href="#quemSomos">Quem Somos</a></li>
+        <li><a href="#nossaEquipe">Nossa Equipe</a></li>
+
+
+        <a href="#" onclick="abrirContatos()">Contatos</a>
+        <div id="menuContatos" class="menuContatos">
+          <p>Escolha um contato:</p>
+          <button class="onClick"
+            onclick="window.location.href='https://www.linkedin.com/company/t3ckoficial/'">Linkedin</button>
+          <button class="onClick"
+            onclick="window.location.href='https://wa.me/553388382208?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20T3ck.', '_blank'">WhatsApp</button>
+          <button class="onClick"
+            onclick="window.location.href='https://www.instagram.com/t3ckoficial/'">Instagram</button>
+          <button class="onClick" onclick="fecharContatos()">Fechar</button>
+        </div>
+      </ul>
+    </nav>
+
+    <button class="botaoLogin"
+      onclick="window.open('https://wa.me/553388382208?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20T3ck.', '_blank')">
+      <a class="botao"> Fale com
+        o Whatsapp</a> </button>
+  </header>
+
+  <h1 class="titulo">Tem algum problema? Podemos te ajudar!</h1>
+
+  <div class="container" id="quemSomos">
+    <img src="img/t3cksfelizes.png" alt="" class="fotoFeliz">
+    <div class="text">
+
+      <h1>Atuação da T3ck:</h1>
+      <p>A T3ck é a startup direcionada à estrutura e desenvolvimento
+        própria de ecommercce e marketplace para médias e grandes empresas. Buscamos as soluções para você como:<br><br>
+        Diminuição de custos - Entrega de estrutura própria para ecommercce e
+        marketplace - Melhoria na experiência do
+        usuário e performance UX/UI.
+      </p>
+
+    </div>
+  </div>
+
+
+  <div class="container2">
+    <div class="text2">
+      <h1>Mercado em Ascensão</h1>
+      <p>O e-commerce brasileiro cresceu 10.4% em 2024 em comparação ao ano anterior,
+        <span class="destaque">faturando R$204,3 Bilhões. Foram 414.9 milhões de pedidos</span> contabilizados e 91.3
+        milhões de compradores online.<br><br><span class="destaque">Nosso plano de ação comercial:</span> Criar um nova estrutura robusta e comercial
+         - Frente comercial de unbound - Integrar softwares que permitem uma pipeline mais definido e uma prospecção automatizada
+      </p>
+    </div>
+  </div>
+
+  <p class="texto3">Um pouco do que nossos projetos entregam!</p>
+
+  <div class="container3">
+
+    <div class="T3ckMarket">T3ck Market<br><br>Automatize a gestão do seu marketplace e ofereça para seus
+      alunos/egressoso o melhor conteúdo direto da web ou na palma da sua mão!
+    </div>
+
+    <div class="T3ckCommerce">T3ck Commerce<br><br>Garanta uma excelencia para o seu cliente com o nosso T3CK
+      COMMERCCE e diminua a quantidade de carrinhos abandonados na sua loja
+      virtual com a ajuda da nossa IA.
+    </div>
+
+    <div class="T3ckOnDemand">T3ck On Demand<br><br>Transforme o atendimento ao cliente em um canal eficiente e
+      lucrativo com IA
+      para otimizar vendas.
+    </div>
+
+  </div>
+
+  <div class="container4">
+    <div class="divTabela">
+      <h6 class="tituloTabela">Nossos Pacotes</h6>
+
+      <table class="servicosTabela">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Market</th>
+            <th>Commerce</th>
+            <th>On Demand</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Análise de performance do time comercial (Funil de vendas e Call)</td>
+            <td class="nao">✗</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Gestão de Contatos</td>
+            <td class="nao">✗</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Loja Virtual com Técnicas UI/UX</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Captação de Leads via WEB</td>
+            <td class="nao">✗</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Gestão de Leads com IA (Zarpon)</td>
+            <td class="nao">✗</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Chat com IA (Multicanal)</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Web App para Infoprodutos</td>
+            <td class="sim">✔</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Mensagens Automáticas via IA</td>
+            <td class="nao">✗</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Automação de Marketplace</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Plataforma Própria</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Mapeamento de Perfil do Cliente</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Análise de dados de vendas e relatórios via IA</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+          <tr>
+            <td>Integração/Criação de Marketplace</td>
+            <td class="nao">✗</td>
+            <td class="sim">✔</td>
+            <td class="sim">✔</td>
+          </tr>
+        </tbody>
+      </table>
+      </table>
+    </div>
+  </div>
+
+  <div class="container5" id="nossaEquipe">
+
+
+
+
+    <div class="colaboradores">
+      <p class="txtColaboradores">Nossos colaboradores</p>
+
+
+      <div class="slide ativo">
+        <img src="img/fogoninja.png" alt="Imagem 1">
+        <div class="detalhes">
+          <h2>@marllonfilipe </h2>
+          <ul>
+            <li>Graduado em Marketing(Estácio)</li>
+            <li>Graduando em Sistemas
+              de informação (Univale)
+            </li>
+            <li>6 anos de experiência em
+              processos comerciais e
+              marketing</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="slide ativo">
+        <img src="img/image.png" alt="Imagem 1">
+        <div class="detalhes">
+          <h2>@julianaconceicao</h2>
+          <ul>
+            <li>Graduado em Fisíca
+              Médica</li>
+            <li>Graduando em Sistemas
+              de informação
+            </li>
+            <li>Experiência em
+              programação de IA e
+              processos
+              computacionais</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="slide ativo">
+        <img src="img/al2.png" alt="Imagem 1">
+        <div class="detalhes">
+          <h2>@andregonçalves </h2>
+          <ul>
+            <li>Graduado em Gestão de
+              pessoas para inovação e
+              sucesso</li>
+            <li>30 anos de experiência
+              em gestão de pessoas
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+
+    <div class="dadosFooter">
+      <ul>
+        <li>CNPJ: 54.988.804/0001-70</li>
+        <li>(33)8838-2208</li>
+        <li>Contato: cocntatoteckmarketing@gmail.com</li>
+        <li>Governador Valadares - MG</li>
+        <li>Instagram:<a href="https://www.instagram.com/t3ckoficial/"> @T3ckoficial</a> </li>
+        <li>Linkedin: <a href="https://www.linkedin.com/company/t3ckoficial/?viewAsMember=true">@T3ck Oficial</a></li>
+        <li>Desenvolvimento e licenciamento de programas de computador customizáveis</li>
+        <li>Teck Solutions LTDA®</li>
+
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
